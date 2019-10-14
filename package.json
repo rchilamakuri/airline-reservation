@@ -4,19 +4,26 @@
   "description": "MOckup project based on angular to depict workings of airline",
   "main": "node-server.js",
   "scripts": {
+    "ng":"ng",
+    "start":"ng serve",
+    "build":"ng build",
+    "test":"ng test",
+    "lint":"ng lint", 
+    "e2e":"ng e2e",
+    "build:prod":"ionic build --prod",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node node-server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lakhaNamdhari/airline-reservation"
+    "url": "https://github.com/rchilamakuri/airline-reservation.git"
   },
-  "author": "Lakha Singh <polizic@yahoo.co.in>",
+  "author": "Raghuram",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lakhaNamdhari/airline-reservation/issues"
+    "url": "https://github.com/rchilamakuri/airline-reservation.git"
   },
-  "homepage": "https://github.com/lakhaNamdhari/airline-reservation",
+  "homepage": "https://github.com/rchilamakuri/airline-reservation.git",
   "devDependencies": {
     "extend": "^2.0.1",
     "grunt": "^0.4.5",
